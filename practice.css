@@ -1,0 +1,31 @@
+body {
+    margin:0;
+    background-color: antiquewhite;
+    color: #23332f;
+}
+header{
+    background-color: #23332f;
+    color: antiquewhite;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #23332f;
+    color: antiquewhite;
+    padding: 18px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    margin: 40px auto;
+}
+section{
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+}
+article{
+    margin: 24px 0;
+    border-top: 8px solid #23332f;
+}
