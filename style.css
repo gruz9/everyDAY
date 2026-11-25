@@ -19,6 +19,7 @@ main{
     justify-content: center;
     max-width: 700px;
     margin: 40px auto;
+    flex-direction: column;
 }
 section{
     background-color: #ffffff;
@@ -28,4 +29,22 @@ section{
 article{
     margin: 24px 0;
     border-top: 8px solid #23332f;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea{
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #23332f;
+}
+button{
+    background-color: #23332f;
+    color: antiquewhite;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }

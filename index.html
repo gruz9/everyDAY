@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>개인 공부 사이트</title>
-    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,6 +14,8 @@
 
     <main>
         <section>
+        <h2>새 공부 기록</h2>
+        <form>
             <label for="study-topic">공부한 내용</label>
             <input id="study-topic" type="text"  name="study-topic">
 
@@ -20,6 +23,7 @@
             <textarea id="study-notes"></textarea>
 
             <button type="button">기록 추가하기</button>
+        </form>
         </section>
         <section>
             <h2>최근 공부 기록</h2>
@@ -33,5 +37,6 @@
     <footer>
         <p>매일 공부하여 공부 기록 웹 사이트 만들기!</p>
     </footer>
+    <div id="record-list"></div>
 </body>
 </html>
